@@ -6,6 +6,15 @@
     color: #000000;
     margin: 20px;
 }
+
+.topnav {
+    display; inline;
+}
+
+.topnav-right {
+    float: right;
+}
+
 ul {
     list-style-type: none;
      margin: 0%;
@@ -20,7 +29,6 @@ li  a{
     display: block;
     margin: 50px;
     font-family: arial, sans-serif;
-
 }
 
 img {
@@ -34,6 +42,7 @@ input {
     justify-content: center;
     padding: absolute;
  }
+
  #botNav {
      background-color: #f2f2f2;
      overflow: hidden;
@@ -41,20 +50,69 @@ input {
      width: 100%
      padding: 55px;
      position: absolute;
-
  }
+
  .rightside {
      float: right;
      margin-right: 30px;
      margin-left: 30px;
  }
+
 #botNav a{
-margin: 20px 10px;
+margin: 20px 20px;
 font-size: 14px;
 color: #5f6368;
 }
 
+.button {
+    overflow: visible
+    background-color: #f4f4f4;
+    color: #646368;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    line-heights: 27px;
+}
 
-a {
-    color:;
+#signIn {
+    background-color: #4583ec;
+    color: white;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px 15px;
+}
+.search {
+    display: flex;
+    margin-left: auto;
+    margin-right auto;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    height:140vh;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
 }
