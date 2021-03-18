@@ -105,14 +105,31 @@ main{
     justify-content:center;
     align-items: center;
     flex-direction: column;
+    margin-top: 15px;
+    font-family; sans-serif;
+    font-size: 13px;
+    color: #000000;
+    overflow: hidden;
+    margin: 20px;
 }
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;background-color: #f2f2f2;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%
+    padding: 55px;
+    position: absolute;
 }
 body{
     height:140vh;
     display: flex;
     justify-content:space-between;
     flex-direction: column;
+    overflow: hidden;
+    font-family; sans-serif;
+    font-size: 13px;
+    color: #000000;
+    margin-top: 15px;
+    margin: 20px;
 }
